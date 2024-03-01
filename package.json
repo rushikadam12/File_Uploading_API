@@ -1,0 +1,21 @@
+{
+  "name": "file_uploading_api",
+  "version": "1.0.0",
+  "description": "create API for uploading images,video and docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "RK",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.0",
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
